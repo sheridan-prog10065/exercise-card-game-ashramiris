@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace CardGameApp;
+namespace CardGameLib;
 
 public class Card
 {

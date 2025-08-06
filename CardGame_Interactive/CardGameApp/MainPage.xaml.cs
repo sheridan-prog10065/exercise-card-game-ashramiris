@@ -1,4 +1,5 @@
-﻿namespace CardGameApp;
+﻿using CardGameLib;
+namespace CardGameApp;
 
 public partial class MainPage : ContentPage
 {

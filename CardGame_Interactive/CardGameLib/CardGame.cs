@@ -1,4 +1,4 @@
-namespace CardGameApp;
+namespace CardGameLib;
 
 public class CardGame
 {
