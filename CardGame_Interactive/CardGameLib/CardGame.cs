@@ -1,5 +1,8 @@
 namespace CardGameLib;
 
+using System.Diagnostics;
+
+
 public class CardGame
 {
 	private CardDeck _cardDeck;
