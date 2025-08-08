@@ -10,13 +10,13 @@ public partial class MainPage : ContentPage
         InitializeComponent();
 
         //create the card game
-        _cardGame = new CardGame();
+        _cardGame = new CardGame(); //COMPOSITION RELATIONSHIP
     }
 
 	private void OnDealCards(object sender, EventArgs e)
 	{
         //Ask the game to deal the cards
-        _cardGame.DealCards();
+        //_cardGame.DealCards();
 
         //Display the player card
         Card playerCard = _cardGame.PlayerCard;
