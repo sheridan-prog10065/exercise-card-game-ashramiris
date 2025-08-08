@@ -16,7 +16,7 @@ public partial class MainPage : ContentPage
 	private void OnDealCards(object sender, EventArgs e)
 	{
         //Ask the game to deal the cards
-        //_cardGame.DealCards();
+        _cardGame.DealCards();
 
         //Display the player card
         Card playerCard = _cardGame.PlayerCard;
