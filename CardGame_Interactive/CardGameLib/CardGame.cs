@@ -1,7 +1,7 @@
+namespace CardGameLib;
 
 using System.Diagnostics;
 
-namespace CardGameApp;
 
 public class CardGame
 {
@@ -63,11 +63,12 @@ public class CardGame
 		}
 	}
 
-	internal void DealCards()
+	public void DealCards()
 	{
 		//Ask the deck for two random cards
 		bool cardsDealt = _cardDeck.GetPairOfCards(out _playerCard, out _houseCard);
 		Debug.Assert(cardsDealt, "Cards could not be dealth. The game may be over and the card deck empty.");
 
 	}
+
 }
